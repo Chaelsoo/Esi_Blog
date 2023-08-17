@@ -1,4 +1,3 @@
-# Esi_Blog
 # BlogPost Built using django and react and tailwind css/react-bootstrap
 
 To Start the app, run:
