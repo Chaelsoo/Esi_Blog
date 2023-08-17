@@ -2,9 +2,9 @@
 
 To Start the app, run:
 on the root folder,
-python3 manage.py makemigrations  \n
-python3 manage.py migrate   \n
-python3 manage.py runserver   \n
+python3 manage.py makemigrations  /n
+python3 manage.py migrate   /n
+python3 manage.py runserver   /n
 
 then on the frontend folder:
 
