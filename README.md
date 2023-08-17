@@ -2,6 +2,7 @@
 
 To Start the app, run:
 on the root folder,
+
 python3 manage.py makemigrations  
 python3 manage.py migrate   
 python3 manage.py runserver   
