@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  box-sizing:content-box;
+font-family: "Quicksand";
+margin: 0;
+color: #f2f2ff  ;
+font-weight: bold;
+}
+
+footer{
+  margin-top: 11%;
+  margin-left:46%;
+  position: fixed;
+  text-align: center;
+}
+body,html,#root{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  max-width: 30% !important;
+  margin: 0 auto;
+  border-bottom: 3px solid #f2f2ff !important;
+}
+
+.navbar h1{
+  text-align: center !important;
+  font-size: 65px !important;
+  font-weight: bold;
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+.navbar a{
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar:hover{
+  color: #f1356d;
+}
+
+.content{
+  color: white;
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.navbar span{
+  margin-left: auto;
+  margin-left: 16px;
+  color: white;
+  background-color: #f1356d;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  
+}
+
+
+.me{
+  color: cornsilk;
+  text-shadow: 2px 2px 4px rgb(255,255,255);
+  /* width: 15%;
+  margin-bottom: 20px;
+  margin-top:40px; */
+}
+
+.blog{
+  box-shadow: 1px 3px 7px rgb(255,255,255) ;
+}
+
+.blog{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 0.1px double #f2f2ff;
+}
+
+.blog h3{
+  font-size: 20px;
+  color: lightseagreen;
+  margin-bottom: 8px;
+}
+
+
+.fit-text {
+  font-size: fit-content;
+  max-width: 100%;
+} 
+
+
+
+.unreadable-input {
+  -webkit-text-security: disc; /* For Safari */
+  text-security: disc;
+}
